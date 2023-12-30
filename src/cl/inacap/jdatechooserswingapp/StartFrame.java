@@ -57,7 +57,7 @@ public class StartFrame extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 					
 				int dia = dateChooserFecha.getCalendar().get(Calendar.DAY_OF_MONTH);
-				int mes = (dateChooserFecha.getCalendar().get(Calendar.MONTH)+1);
+				int mes = (dateChooserFecha.getCalendar().get(Calendar.MONTH) + 1);
 				int year = dateChooserFecha.getCalendar().get(Calendar.YEAR);
 				
 				System.out.println("El dia seleccionado es: " + dia);
